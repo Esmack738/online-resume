@@ -12,7 +12,7 @@ contact:
   phone: +54-280-434-2622 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   # website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender:  male                # gender or pronoun
+  gender:  Male                # gender or pronoun
   birthday:  2003-11-19              # birthday
   nationality:  yes x3          # nationality
   visa:                    # passport visa
