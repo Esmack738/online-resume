@@ -173,12 +173,7 @@ skill:
       level: 2
     - name: Torrenting
       level: 3
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
+      
 
   groups:
     - name: Game development
@@ -187,15 +182,7 @@ skill:
         - Unreal Engine
         - Blender
         - Photoshop/Gimp
-    - name: Group B Skills
-      item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+        - Ableton Live
 
 education:
   show: true
