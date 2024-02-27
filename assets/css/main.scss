@@ -47,10 +47,10 @@ section {
     text-transform: {{ site.section_title | default: "uppercase" }};
     justify-content: {{ site.section_align | default: "start" }};
     border-bottom-style: {{ site.section_line | default: "dashed" }};
-
-    {% if site.section_background %}
-    background-color: rgba($theme-color, 0.15);
-    {% endif %}
+#
+    # {% if site.section_background %}
+    # background-color: rgba($theme-color, 0.15);
+    # {% endif %}
 
     {% if site.section_icon != true %}
     .section-icon { display: none; }
