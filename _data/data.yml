@@ -82,7 +82,7 @@ profile:
   show: true
   order: 1
   title: Profile
-  description: 
+  description: Currently a university student looking to expand my knowledge  of computers and the world. Aspiring game developer.
     # The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
 
     # A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
@@ -92,7 +92,7 @@ experience:
   order: 2
   title: Experiences/Events
   description: 
-    Experience with Rainmeter. Testing compatibility of projects within Fabric (JRE).
+    
     # The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
@@ -117,6 +117,15 @@ experience:
         Participated in multiple songs as guitarist or bassist and contributed to the production leading up to both shows
         + Varieté
         + Varieté Classic
+      
+    - company: Utah State Science Fair
+      link:
+      tags: Show
+      date: 2015
+      role: Only Contributor
+      location: Provo, Utah, USA
+      description: |
+        Planned, researched, made experiments and drew conclusions in accordance to the results in compliance with the criteria outlined for the event.
 
 project:
   show: false
@@ -152,7 +161,7 @@ skill:
   show: true
   order: 4
   title: Skills
-  description: 
+  description: Capable of researching complex topics and acquiring information. Good mastery of computers in general.
     # The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
 
     # The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
@@ -164,15 +173,13 @@ skill:
   items:
     - name: Godot
       level: 1
-    - name: Unreal Engine
-      level: 1
-    - name: Blender
-      level: 2
     - name: Photoshop/Gimp
       level: 2
     - name: HandBrake
       level: 2
     - name: Torrenting
+      level: 3
+    - name: Ableton Live
       level: 3
       
 
@@ -180,7 +187,6 @@ skill:
     - name: Game development
       item:
         - Godot
-        - Unreal Engine
         - Blender
         - Photoshop/Gimp
         - Ableton Live
@@ -212,6 +218,13 @@ education:
       degree: Licentiate/Bachelor
       description: |
         Completed First Year
+    - institution: Escuela de La Costa
+      link: '#'
+      date: 2016 - 2021
+      major: Natural Sciences orientation
+      degree: High School
+      description: |
+      
 
 certificate:
   show: true
@@ -327,10 +340,12 @@ language:
   show: true
   order: 11
   title: Languages
-  description: |
-    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
+  description: 
+    Native Spanish speaker; was raised in an environment with a lot of English exposure as well as other (mostly romance) languages and completed 1 year of Elementary school in the USA. 
+    
+    # The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
 
-    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
+    # It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
 
   items:
     - idiom: Spanish
@@ -344,12 +359,14 @@ interest:
   show: true
   order: 12
   title: Interests
-  description: |
-    The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
+  description: 
+    I have a great interest in linguistics and language learning, as well as deepening my understanding of other cultures. For the same reason, I also really enjoy travelling. I am very interested in the portrayal of stories, culture and people in media. 
+    I play the guitar as well as other instruments and also started learning music production on my free time. I enjoy reading books, mainly fiction and fantasy, as well as comic books and graphic novels. 
+    #The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
 
-    Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
+    #Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
 
-    However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
+    #However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
 
   items:
     - item: Music
