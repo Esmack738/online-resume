@@ -10,8 +10,9 @@
 
   {%- if contact.email %}
   <div class="contact-item" title="email">
-    <i class="fa-solid fa-envelope" href="mailto:{{ contact.email }}"></i>
-    <a></a>
+    <a href="mailto:{{ contact.email }}">
+    <i class="fa-solid fa-envelope"></i>
+    </a>
   </div>
   {%- endif %}
 
@@ -72,15 +73,17 @@
 
   {%- if contact.whatsapp %}
   <div class="contact-item" title="whatsapp">
-    <i class="fa-brands fa-whatsapp" href="https://wa.me/{{ contact.whatsapp }}" target="_blank"></i>
-    <a ></a>
+    <a href="https://wa.me/{{ contact.whatsapp }}" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+    </a>
   </div>
   {%- endif %}
 
   {%- if contact.telegram %}
   <div class="contact-item" title="telegram">
-    <i class="fa-brands fa-telegram" href="https://t.me/{{ contact.telegram }}" target="_blank"></i>
-    <a ></a>
+    <a href="https://t.me/{{ contact.telegram }}" target="_blank">
+    <i class="fa-brands fa-telegram"></i>
+    </a>
   </div>
   {%- endif %}
 
@@ -114,8 +117,9 @@
 
   {%- if contact.github %}
   <div class="contact-item" title="github">
-    <i class="fa-brands fa-github" href="https://github.com/{{ contact.github }}" target="_blank"></i>
-    <a >{}</a>
+    <a href="https://github.com/{{ contact.github }}" target="_blank">
+    <i class="fa-brands fa-github"></i>
+    </a>
   </div>
   {%- endif %}
 
@@ -135,8 +139,9 @@
 
   {%- if contact.stackoverflow %}
   <div class="contact-item" title="stackoverflow">
+    <a href="https://stackoverflow.com/users/{{ contact.stackoverflow }}" target="_blank">
     <i class="fa-brands fa-stack-overflow"></i>
-    <a href="https://stackoverflow.com/users/{{ contact.stackoverflow }}" target="_blank">{{ contact.stackoverflow }}</a>
+    </a>
   </div>
   {%- endif %}
 
