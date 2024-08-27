@@ -370,7 +370,7 @@ interest:
 
   items:
     - item: Music
-      link: '#'
+      link: 
     - item: Language Learning
       link:
     - item: Game Development
