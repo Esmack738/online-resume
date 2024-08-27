@@ -11,14 +11,14 @@
   {%- if contact.email %}
   <div class="contact-item" title="email">
     <i class="fa-solid fa-envelope"></i>
-    <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+    <a href="mailto:{{ contact.email }}">{}</a>
   </div>
   {%- endif %}
 
   {%- if contact.phone %}
   <div class="contact-item" title="phone">
     <i class="fa-solid fa-phone"></i>
-    <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
+    <a href="tel:{{ contact.phone }}">{}</a>
   </div>
   {%- endif %}
 
@@ -74,14 +74,14 @@
   {%- if contact.whatsapp %}
   <div class="contact-item" title="whatsapp">
     <i class="fa-brands fa-whatsapp"></i>
-    <a href="https://wa.me/{{ contact.whatsapp }}" target="_blank">{{ contact.whatsapp }}</a>
+    <a href="https://wa.me/{{ contact.whatsapp }}" target="_blank">{}</a>
   </div>
   {%- endif %}
 
   {%- if contact.telegram %}
   <div class="contact-item" title="telegram">
     <i class="fa-brands fa-telegram"></i>
-    <a href="https://t.me/{{ contact.telegram }}" target="_blank">{{ contact.telegram }}</a>
+    <a href="https://t.me/{{ contact.telegram }}" target="_blank">{}</a>
   </div>
   {%- endif %}
 
@@ -116,7 +116,7 @@
   {%- if contact.github %}
   <div class="contact-item" title="github">
     <i class="fa-brands fa-github"></i>
-    <a href="https://github.com/{{ contact.github }}" target="_blank">{{ contact.github }}</a>
+    <a href="https://github.com/{{ contact.github }}" target="_blank">{}</a>
   </div>
   {%- endif %}
 
