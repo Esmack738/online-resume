@@ -380,9 +380,17 @@ interest:
     - item: History/Geopolitics
       link:
 
-evaluation:
+sports:
   show: true
   order: 13
+  title: Sports
+  description:
+  I am currently a 6th kyu in Shin SHu Kan Karate. I was also part of a local swimming team for 2+ years.
+
+
+evaluation:
+  show: true
+  order: 14
   title: Self-evaluation
   description: 
     # The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
@@ -394,7 +402,7 @@ evaluation:
 
 reference:
   show: false
-  order: 14
+  order: 15
   title: References
   description: |
     A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
