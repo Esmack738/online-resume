@@ -161,7 +161,7 @@ skill:
   show: true
   order: 4
   title: Skills
-  description: Capable of researching complex topics and acquiring information. Good mastery of computers in general.
+  description: Capable of researching complex topics and acquiring information. Good mastery of computers in general. I have a good understanding of Pascal and Java, as well as some experience with Lua and GDScript.
     # The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
 
     # The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
@@ -171,9 +171,15 @@ skill:
     # There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
 
   items:
-    - name: Godot
+    - name: GDScript
       level: 1
-    - name: Photoshop/Gimp
+    - name: Java
+      level: 0
+    - name: Lua
+      level: 0
+    - name: Pascal
+      level: 3
+    - name: Gimp
       level: 2
     - name: HandBrake
       level: 2
