@@ -370,6 +370,7 @@ interest:
   description: 
     I have a great interest in linguistics and language learning, as well as deepening my understanding of other cultures. For the same reason, I also really enjoy travelling. I am very interested in the portrayal of stories, culture and people in media. 
     I play the guitar as well as other instruments and also started learning music production on my free time. I enjoy reading books, mainly fiction and fantasy, as well as comic books and graphic novels. 
+    I enjoy cooking and trying out new foods. I am currently a 6th kyu in Shin SHu Kan Karate and I was also part of a local swimming team for 2+ years.
     #The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
 
     #Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
@@ -387,13 +388,6 @@ interest:
       link:
     - item: History/Geopolitics
       link:
-
-sports:
-  show: true
-  order: 13
-  title: Sports
-  description:
-  I am currently a 6th kyu in Shin SHu Kan Karate. I was also part of a local swimming team for 2+ years.
 
 
 evaluation:
